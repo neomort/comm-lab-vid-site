@@ -1,0 +1,83 @@
+/* background colors */
+/* color scheme */
+.bg-1 {
+  /* Yellow */
+  background: #FFE194;
+}
+
+.bg-2 {
+  /* Light */
+  background: #E8F6EF;
+}
+
+.bg-3 {
+  /* medium */
+  background: #E8F6EF;
+}
+
+.bg-4 {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.text-light {
+  /* Light */
+  color: #E8F6EF;
+}
+
+.text-dark {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.font {
+  font-family: Poppins;
+}
+
+
+/* flex properties */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 10px;
+  align-content: end;
+}
+
+.default-margin{
+  margin: 30px;
+  
+}
+
+.image-1 {
+  border-radius: 10px;
+  width: 100%;
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.image-1:hover {
+  width: 101%;
+  opacity:100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+
+}
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

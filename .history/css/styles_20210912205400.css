@@ -1,0 +1,41 @@
+/* background colors */
+/* color scheme */
+.bg-1 {
+  /* Yellow */
+  background: #FFE194;
+}
+
+.bg-2 {
+  /* Light */
+  background: #E8F6EF;
+}
+
+.bg-3 {
+  /* medium */
+  background: #E8F6EF;
+}
+
+.bg-4 {
+  /* dark */
+  background: #4C4C6D;
+}
+
+
+/* flex properties */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.default-margin{
+  margin: 30px;
+}
+
+.image-1 {
+  max-width: 45%;
+}
