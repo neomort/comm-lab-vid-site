@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.3/lottie.min.js" integrity="sha256-lZIvAx83WLHALrd5UIfVRAkDgVmAIxUt8JqPhNZIs4Q=" crossorigin="anonymous"></script>
+  <title>The String: 30 second film festival home</title>
+<link rel="icon" href="images/chicken.png"/>
+<link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="bg-2">
+  <div >
+    <div id="greeting" class="default-margin">
+      <div class="row">
+        <div id="animation">
+        <div class="font centered-animation" id="Connectline1_lottie_container"></div> 
+        </div>
+        <a id="findLine" onclick="toggleAnimation()">
+         <div class="column container">
+          <img class="image-1" src="images/Rectangle 20.png" />
+          <H1 class="font centered-text text-light show">Watch</H1>
+        </div>
+      </a>
+      <a href="links.html">
+        <div class="column-2 container">
+          <img class="image-1" src="images/Rectangle 21.png" />
+          <H1 class="font centered-text text-light show">Explore</H1>
+        </div>
+      </a>
+      
+      </div>
+      
+     
+    </div>
+  
+</div>
+</body>
+<script src="js/Connectline1.js"></script>
+<script src="js/script.js"></script>
+<script>
+let element = document.getElementById("Connectline1_lottie_container");
+lottie.loadAnimation({
+  container: element, // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  animationData: Connectline1AnimationData // the path to the animation json
+});
+</script> 
+</html> 

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+  
+
+<head>
+  <!-- this script helps animation driver -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.3/lottie.min.js" integrity="sha256-lZIvAx83WLHALrd5UIfVRAkDgVmAIxUt8JqPhNZIs4Q=" crossorigin="anonymous"></script>
+  
+  <title>The String: 30 second film festival home</title>
+<link rel="icon" href="images/chicken.png"/>
+<link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body class="bg-2">
+  <div >
+    <div id="greeting" class="default-margin">
+      <div class="row">
+
+ <!-- watch button initiates animation -->
+        <a id="findLine" onclick="toggleAnimation(), startAnimation()">
+         <div class="column container">
+          <img class="image-1" src="images/Rectangle 20.png" />
+          <H1 class="font centered-text text-light show">Watch</H1>
+        </div>
+      </a>
+
+<!-- button for other links -->
+      <a href="links.html"> 
+        <div class="column-2 container">
+          <img class="image-1" src="images/Rectangle 21.png" />
+          <H1 class="font centered-text text-light show">Explore</H1>
+        </div>
+      </a>
+
+<!-- HTML for animation -- inline styling makes it go over the top of the page -->
+      <div id="animation" class="hidden">
+        <div class="font centered-animation" id="Connectline1_lottie_container"></div> 
+        </div>
+      </div>
+
+      <!-- adds hidden space between buttons and video -->
+      <div class="row" class="hidden" id="space"> 
+        <div class="space">
+        </div>
+      </div>
+
+      <div class="row">
+
+        <video width="100%" autoplay muted class="hidden" id="video"> 
+          <source src="https://www.commlab.nyuadim.com/MangF21/Jeongin-Maaz-Kyle.mp4" type="video/mp4">
+          Your browser does not support HTML video.
+        </video>
+
+        </div>
+     
+    </div>
+  
+</div>
+</body>
+<script src="js/Connectline1.js"></script>
+<script src="js/script.js"></script>
+
+</html> 

@@ -1,0 +1,142 @@
+/* background colors */
+/* color scheme */
+.bg-1 {
+  /* Yellow */
+  background: #FFE194;
+}
+
+.bg-2 {
+  /* Light */
+  background: #E8F6EF;
+}
+
+.bg-3 {
+  /* medium */
+  background: #B8DFD8;
+}
+
+.bg-4 {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.text-light {
+  /* Light */
+  color: #E8F6EF;
+}
+
+.text-dark {
+  /* dark */
+  background: #4C4C6D;
+}
+
+.font {
+  font-family: Poppins;
+}
+
+
+
+/* flex properties */
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 10px;
+  align-content: end;
+}
+
+.default-margin{
+  margin: 30px;
+  
+}
+
+/* fancy container button */
+
+.container {
+  position: relative;
+  text-align: center;
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.container img{
+  border-radius: 10px;
+  width: 100%;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.container:hover {
+  position: relative;
+  text-align: center;
+  opacity: 100%;
+  transition: 0.3s;
+}
+
+.container:hover .show{
+  opacity: 1;
+}
+
+.show {
+  opacity: 0;
+  transition: 0.3s;
+}
+
+/* iframe box */
+
+.frame {
+  padding-top: 56.25%;
+  position:relative;
+}
+
+.bar {
+  width: 100%;
+}
+
+
+/* .drop-container{
+  object-fit: cover;
+  position: relative;
+  text-align: center;
+  opacity: 70%;
+  transition: 0.3s;
+}
+
+.image-2{
+  object-fit: cover;
+  border-radius: 10px;
+  width: 1000px;
+  opacity: 100%;
+
+  transition: 0.3s;
+}
+
+.drop-container:hover .image-2{
+  object-fit: cover;
+  border-radius: 10px;
+  width: 100%;
+  opacity: 100%;
+  height: 300px;
+  transition: 0.3s;
+} */
+
+
+
+
+
+
+
+.centered-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
